@@ -1,0 +1,9 @@
+[package]
+name = "sqlite_backup"
+version = "0.1.0"
+authors = ["David G. Andersen <dga@brdg.ai>"]
+edition = "2018"
+
+[dependencies]
+structopt = "*"
+rusqlite = { version = "0.22", features = ["backup"] }
