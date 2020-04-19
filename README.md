@@ -1,5 +1,5 @@
 # sqlite_backup
-This small utility is a small wrapper around the rust sqlite3 backup API.
+This utility is a small wrapper around the rust sqlite3 backup API.
 Unlike using the `.backup` command from the sqlite shell, this utility
 lets you specify the page copy size and the sleep duration between
 pages to make it easier to identify a good tradeoff between copy
